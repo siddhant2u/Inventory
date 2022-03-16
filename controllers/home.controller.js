@@ -1,6 +1,5 @@
 const home = require("../models/home.model");
 
-//get all metrics from db
 exports.getMetrics = (req, res) => {
     getMetrics((err, data) => {
         if (err) {
