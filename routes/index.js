@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const mysqlConn = require('../../Inventory/config/db.config');
 
 const productsController = require("../../Inventory/controllers/products.controller");
 const ordersController = require("../../Inventory/controllers/orders.controller");
