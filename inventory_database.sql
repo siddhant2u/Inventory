@@ -1,8 +1,6 @@
--- phpMyAdmin SQL Dump
--- version 4.9.1
+
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
 -- Generation Time: Oct 06, 2020 at 08:35 AM
 -- Server version: 10.3.23-MariaDB-0+deb10u1
 -- PHP Version: 7.3.19-1~deb10u1

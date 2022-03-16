@@ -1,13 +1,12 @@
 var express = require('express');
 var router = express.Router();
-const mysqlConn = require('../config/db.config');
 
-const productsController = require("../controllers/products.controller");
-const ordersController = require("../controllers/orders.controller");
-const homeController = require("../controllers/home.controller");
-const loginController = require("../controllers/login.controller");
-const reportsController = require("../controllers/reports.controller");
-const suppliersController = require("../controllers/suppliers.controller");
+const productsController = require("../../Inventory/controllers/products.controller");
+const ordersController = require("../../Inventory/controllers/orders.controller");
+const homeController = require("../../Inventory/controllers/home.controller");
+const loginController = require("../../Inventory/controllers/login.controller");
+const reportsController = require("../../Inventory/controllers/reports.controller");
+const suppliersController = require("../../Inventory/controllers/suppliers.controller");
 
 /******** *********
  * login and registration block
